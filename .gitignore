@@ -6,5 +6,4 @@ dist-ssr
 dist
 yarn-error.log
 .media
-assets/legends/
 *.ai

@@ -182,24 +182,24 @@ function runOffsetAction(labelType) {
         var actionName;
         switch(labelType) {
             case "Sheets":
-                actionName = "Sheets";
+                actionName = "Sheet Offset";
                 break;
             case "Rolls":
-                actionName = "Rolls";
+                actionName = "Roll Offset";
                 break;
             case "Die-cut":
-                actionName = "Die Cut"; // Note: "Die Cut" with space
+                actionName = "Die-Cut Offset";
                 break;
             default:
                 actionName = labelType;
         }
         
-        // Use the correct action set name "Offset"
-        app.doScript(actionName, "Offset");
+        // Use the correct action set name "Proofer Actions"
+        app.doScript(actionName, "Proofer Actions");
         return true;
     } catch (e) {
         // If the action isn't found, provide helpful error message
-        alert("Action '" + actionName + "' not found in 'Offset' action set.\n\nPlease ensure the 'Offset' action set is loaded with actions named:\n- Sheets\n- Rolls\n- Die Cut");
+        alert("Action '" + actionName + "' not found in 'Proofer Actions' action set.\n\nPlease ensure the 'Proofer Actions' action set is loaded with actions named:\n- Sheet Offset\n- Roll Offset\n- Die-Cut Offset");
         return false;
     }
 }
@@ -467,7 +467,7 @@ function setDefaultDir() {
 
 function checkRequiredActions() {
     var requiredActions = {
-        "Offset": ["Sheets", "Rolls", "Die Cut"]
+        "Proofer Actions": ["Sheet Offset", "Roll Offset", "Die-Cut Offset"]
     };
     
     var missingActions = [];
@@ -486,8 +486,8 @@ function checkRequiredActions() {
     
     if (missingActions.length > 0) {
         alert("Missing required actions:\n\n" + missingActions.join("\n") + 
-              "\n\nPlease ensure the 'Offset' action set is loaded in the Actions panel with these actions:\n" +
-              "- Sheets\n- Rolls\n- Die Cut\n\n" +
+              "\n\nPlease ensure the 'Proofer Actions' action set is loaded in the Actions panel with these actions:\n" +
+              "- Sheet Offset\n- Roll Offset\n- Die-Cut Offset\n\n" +
               "You can load the actions from Window > Actions panel.");
         return false;
     }

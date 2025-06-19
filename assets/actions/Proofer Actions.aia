@@ -1,0 +1,271 @@
+/version 3
+/name [ 15
+	50726f6f66657220416374696f6e73
+]
+/isOpen 0
+/actionCount 3
+/action-1 {
+	/name [ 12
+		5368656574204f6666736574
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 2
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_offset)
+		/localizedName [ 11
+			4f66667365742050617468
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 3
+		/parameter-1 {
+			/key 1868985204
+			/showInPalette -1
+			/type (unit real)
+			/value 9.0
+			/unit 592476268
+		}
+		/parameter-2 {
+			/key 1835627634
+			/showInPalette -1
+			/type (real)
+			/value 4.0
+		}
+		/parameter-3 {
+			/key 1785623664
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 5
+				4d69746572
+			]
+			/value 2
+		}
+	}
+	/event-2 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_offset)
+		/localizedName [ 11
+			4f66667365742050617468
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 3
+		/parameter-1 {
+			/key 1868985204
+			/showInPalette -1
+			/type (unit real)
+			/value -18.0
+			/unit 592476268
+		}
+		/parameter-2 {
+			/key 1835627634
+			/showInPalette -1
+			/type (real)
+			/value 4.0
+		}
+		/parameter-3 {
+			/key 1785623664
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 5
+				4d69746572
+			]
+			/value 2
+		}
+	}
+}
+/action-2 {
+	/name [ 11
+		526f6c6c204f6666736574
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 2
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_offset)
+		/localizedName [ 11
+			4f66667365742050617468
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 3
+		/parameter-1 {
+			/key 1868985204
+			/showInPalette -1
+			/type (unit real)
+			/value 4.5
+			/unit 592476268
+		}
+		/parameter-2 {
+			/key 1835627634
+			/showInPalette -1
+			/type (real)
+			/value 4.0
+		}
+		/parameter-3 {
+			/key 1785623664
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 5
+				4d69746572
+			]
+			/value 2
+		}
+	}
+	/event-2 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_offset)
+		/localizedName [ 11
+			4f66667365742050617468
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 3
+		/parameter-1 {
+			/key 1868985204
+			/showInPalette -1
+			/type (unit real)
+			/value -9.0
+			/unit 592476268
+		}
+		/parameter-2 {
+			/key 1835627634
+			/showInPalette -1
+			/type (real)
+			/value 4.0
+		}
+		/parameter-3 {
+			/key 1785623664
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 5
+				4d69746572
+			]
+			/value 2
+		}
+	}
+}
+/action-3 {
+	/name [ 14
+		4469652d437574204f6666736574
+	]
+	/keyIndex 0
+	/colorIndex 0
+	/isOpen 0
+	/eventCount 3
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_offset)
+		/localizedName [ 11
+			4f66667365742050617468
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 3
+		/parameter-1 {
+			/key 1868985204
+			/showInPalette -1
+			/type (unit real)
+			/value 9.0
+			/unit 592476268
+		}
+		/parameter-2 {
+			/key 1835627634
+			/showInPalette -1
+			/type (real)
+			/value 4.0
+		}
+		/parameter-3 {
+			/key 1785623664
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 5
+				4d69746572
+			]
+			/value 2
+		}
+	}
+	/event-2 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_offset)
+		/localizedName [ 11
+			4f66667365742050617468
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 3
+		/parameter-1 {
+			/key 1868985204
+			/showInPalette -1
+			/type (unit real)
+			/value 4.5
+			/unit 592476268
+		}
+		/parameter-2 {
+			/key 1835627634
+			/showInPalette -1
+			/type (real)
+			/value 4.0
+		}
+		/parameter-3 {
+			/key 1785623664
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 5
+				4d69746572
+			]
+			/value 2
+		}
+	}
+	/event-3 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_offset)
+		/localizedName [ 11
+			4f66667365742050617468
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 3
+		/parameter-1 {
+			/key 1868985204
+			/showInPalette -1
+			/type (unit real)
+			/value -18.0
+			/unit 592476268
+		}
+		/parameter-2 {
+			/key 1835627634
+			/showInPalette -1
+			/type (real)
+			/value 4.0
+		}
+		/parameter-3 {
+			/key 1785623664
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 5
+				4d69746572
+			]
+			/value 2
+		}
+	}
+}

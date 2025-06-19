@@ -6,9 +6,9 @@ const config: CEP_Config = {
   id: "com.proofer.panel",
   displayName: "Proofer",
   symlink: "local",
-  port: 3000,
-  servePort: 5000,
-  startingDebugPort: 8860,
+  port: 3636,
+  servePort: 5656,
+  startingDebugPort: 9696,
   extensionManifestVersion: 6.0,
   requiredRuntimeVersion: 9.0,
   hosts: [

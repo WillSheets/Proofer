@@ -15,8 +15,7 @@ Proofer is an Adobe Illustrator extension that automates the creation of label p
 ### Requirements
 - Adobe Illustrator CC 2018+ (v17.0+)
 - Node.js 18+
-- Required Illustrator Actions:
-  - An `Offset` action folder set with `Sheets`, `Rolls`, and `Die Cut` actions
+- The `Proofer Actions` folder set
   - An `Add Arrows` action folder set for arrowhead functions
 
 ## Project Structure
